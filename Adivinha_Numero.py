@@ -5,7 +5,7 @@ continua = ""
 
 while (continua != ("n" or "N")):
     numero = random.randrange(0, 10)
-
+    
     print("Tente adivinhar o número secreto." )
     adivinha = int(input("Digite um número entre 0 e 10: "))
 
